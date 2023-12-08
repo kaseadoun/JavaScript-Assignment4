@@ -1,3 +1,11 @@
+/*
+    API Link:
+    https://rapidapi.com/SAdrian/api/moviesdatabase
+
+    Documentation for the movie API:
+    https://rapidapi.com/SAdrian/api/moviesdatabase/tutorials/moviesdatabase-documentation
+*/
+
 // SELECTORS AND VARIABLES
 // Student info query selectors
 const studentInfoContainer = document.querySelector("#student-info-container");
