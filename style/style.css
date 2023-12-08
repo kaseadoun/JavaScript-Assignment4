@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 8vh;
+    max-height: 100px;
+    width: 100%;
+}
+
+#student-info-container {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+section {
+    width: 50vw;
+    max-width: 1000px;
+    padding: 20px 100px;
+}
+
+#search-message {
+    margin-top: 10px;
+}
+
+#search-container {
+    height: 50px;
+}
+
+
+#movie-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.movieCard {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    height: 180px;
+    padding: 0 20px;
+    background-color: lightgrey;
+    border-radius: 20px;
+}
+
+img {
+    max-width: 100px;
+    max-height: 150px;
+}
