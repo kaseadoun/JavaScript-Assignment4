@@ -93,7 +93,7 @@ function arrayMovieData(data) {
             id: movie["id"],
             title: movie["titleText"]["text"],
             releaseDate: movie["releaseDate"] != null ? `${monthChange(movie["releaseDate"]["month"])} ${movie["releaseDate"]["month"]}, ${movie["releaseDate"]["year"]}` : `Unreleased`,
-            imageUrl: movie["primaryImage"] == null ? "../img/null-poster.jpg" : movie["primaryImage"]["url"]
+            imageUrl: movie["primaryImage"] == null ? "./img/null-poster.jpg" : movie["primaryImage"]["url"]
         });
     }
 }
