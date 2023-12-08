@@ -34,6 +34,10 @@ let movieData = [];
 searchButton.addEventListener('click', () => {
     // Takes text value from the search input
     searchValue = searchInput.value;
+    if (searchInput.value == '') {
+        searchMessage.textContent = `Please type a movie name.`;
+        return;
+    }
     // Replaces all spaces with the appropriate code to put into the URL
     searchValue = searchValue.replaceAll(' ', '%20');
     // Resets outcome message
